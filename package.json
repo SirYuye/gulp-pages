@@ -6,26 +6,19 @@
     "zce-pages",
     "zce"
   ],
+  "bin": "bin/zce-pages.js",
   "repository": "zce/zce-pages",
   "license": "MIT",
   "author": "yuhaihe <121786502@qq.com> (https://github.com/SirYuye/zce-pages)",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
-  "scripts": {
-    "lint": "standard --fix",
-    "test": "jest --coverage",
-    "prepare": "npm run lint && npm run test"
-  },
+  "scripts": {},
   "renovate": {
     "extends": [
       "zce"
-    ]
-  },
-  "standard": {
-    "env": [
-      "jest"
     ]
   },
   "dependencies": {
